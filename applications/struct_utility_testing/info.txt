@@ -1,0 +1,4 @@
+Current status:
+- energies_verif.m: considers circular data that is too coarse to clearly identify that FEM data and computation of kinetic/strain energy coefficients are being computed properly (kept for legacy reasons)
+
+- energies_verif_hires.m: consider circular data that is eventually refined well enough to identify tha FEM data and computation of kinetic/strain energy coefficients are properly computed.
