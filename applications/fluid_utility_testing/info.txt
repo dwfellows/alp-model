@@ -1,0 +1,13 @@
+Immediate note:
+  All routines in "./testing_routines" will look to access the data in "./fem_data". For storage reasons, this data has been comrpessed. Please un-compress this directory before attempting to execute any of the testing routines.
+
+Current status:
+
+- ./fem_data: contains all the FEM data of deformation from simple structures (thin circular/rectangular plates) used to verify developed fluid utility routines
+
+- ./testing_routines: contains all developed testing routines (legacy and current) that were utilized to aid in development and verification of fluid utilities. Some are deprecated (either developed incorrectly or use data that is not well resolved, etc.), and some are current (clearly identify that fluid routines are correctly implemented and return useful data).
+
+To-Do:
+
+- Add information in "./testing_routines" to identify which tests are deprecated, and which are current.
+- Add information in each testing routine to fully discuss what each test does, why the names of each testing routine are what they are, which routines have actually been used to provide data discussed in publications/internal documentation to prove the correct implementation and use of the fluid utilities.
